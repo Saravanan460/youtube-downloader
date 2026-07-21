@@ -1,11 +1,16 @@
-🎬 Universal Media Downloader Pro
+Here is the clean, formatted, and copy-paste-ready `README.md` for your GitHub repository. It focuses entirely on getting users set up quickly, explains the necessary FFmpeg/Node.js steps simply, and shows them how to make the invisible desktop shortcut!
+
+---
+
+# 🎬 Universal Media Downloader Pro
 
 A lightweight, modern Windows desktop application for downloading and instantly trimming high-quality media from YouTube and Instagram. Built with Python, yt-dlp, FFmpeg, and CustomTkinter.
 
 Universal Media Downloader Pro is a sleek, Python-based desktop application designed to solve the frustrations of slow, ad-filled web downloaders. It uses multi-threaded connections to bypass network throttling and allows for instant, precision video trimming without the need for slow frame-by-frame re-encoding.
 
+---
 
- Features
+## ✨ Features
 
 * 🖥️ **Premium Desktop UI:** A dark-themed, native Windows experience built with CustomTkinter—no ugly terminal windows.
 
@@ -29,9 +34,9 @@ Universal Media Downloader Pro is a sleek, Python-based desktop application desi
 
 
 
+---
 
-
-Installation & Setup
+## 🛠️ Installation & Setup
 
 Getting this running on your local Windows machine takes just a few minutes.
 
@@ -76,9 +81,9 @@ To trim videos instantly, you need FFmpeg. Instead of messing with messy system 
 
 
 
+---
 
-
-Usage: The "Magic" Desktop Shortcut
+## 🪄 Usage: The "Magic" Desktop Shortcut
 
 You *can* run this app from the terminal using `python gui_downloader.py`, but normal Python runs on python.exe, which forces that black terminal to open. Here is how to run it like a real desktop app:
 
@@ -99,7 +104,7 @@ C:\Users\Username\miniconda3\envs\ytdlp_env\pythonw.exe "E:\Projects\youtube_dow
 ```
 
 
-Crucial Detail: You must wrap your script path in quotes! If your project folder has a space in its name (like youtube downloader), Windows will stop reading at the space, fail to find the file, and instantly crash.
+⚠️ **Crucial Detail:** You must wrap your script path in quotes! If your project folder has a space in its name (like youtube downloader), Windows will stop reading at the space, fail to find the file, and instantly crash.
 
 
 4. Click **Next**, name the shortcut "Media Downloader", and hit **Finish**.
